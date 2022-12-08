@@ -16,7 +16,6 @@ const Home = () => {
             theme="dark"
             providers={["google"]}
           />
-          <StockApi />
         </div>
       ) : (
         <Account session={session} />

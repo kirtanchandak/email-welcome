@@ -20,7 +20,12 @@ function StockApi() {
     .catch(function (error) {
       console.error(error);
     });
-  return <div>StockApi</div>;
+  return (
+    <div>
+      StockApi
+      <h1>kirtan</h1>
+    </div>
+  );
 }
 
 export default StockApi;

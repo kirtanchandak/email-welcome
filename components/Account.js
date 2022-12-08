@@ -106,7 +106,6 @@ export default function Account({ session }) {
         >
           Sign Out
         </button>
-        <h1>Kirtan</h1>
       </div>
     </div>
   );

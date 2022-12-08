@@ -1,7 +1,11 @@
 import React from "react";
 
 function stockSelection() {
-  return <div>stockSelection</div>;
+  return (
+    <div>
+      <h1>Stock Selection</h1>
+    </div>
+  );
 }
 
 export default stockSelection;
